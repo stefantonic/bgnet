@@ -1,0 +1,35 @@
+https://en.wikipedia.org/wiki/Serialization
+https://en.wikipedia.org/wiki/IEEE_754
+
+bitwise operators
+&     AND
+|      OR
+^     XOR
+<< LSHIFT
+>> RSHIFT
+~     NOT
+
+bitwise operators precedence
+1. ~        NOT
+2. << >>    LSHIFT, RSHIFT
+3. &        AND
+4. ^        XOR
+5. |         OR
+
+8
+0000 0000
+
+16
+0000 0000 0000 0000
+
+32
+0000 0000 0000 0000 - 0000 0000 0000 0000
+
+64
+0000 0000 0000 0000  1
+0000 0000 0000 0000  2
+0000 0000 0000 0000  3
+0000 0000 0000 0000  4
+
+0x7fff(32767) int16_t
+0xFFFF(65535) uint16_t
