@@ -12,7 +12,6 @@ na masini koja pokrece<br>
 `git clone https://github.com/stefantonic/bgnet.git`<br>
 `https://beej.us/guide/`<br>
 `sudo apt-get install libbsd-dev`<br>
-`make` ako ne radi: `make clean` prvo, pa onda `make` <br> 
 
 ### Poteskoce sa makefile-om?
 `~/src/code$ gcc -std=gnu11 foo.c -o foo `<br>
